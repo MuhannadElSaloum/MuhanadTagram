@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9641C85F15849767DF83315E /* Pods_MuhanadTagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3448B47D58F8F4E063701F /* Pods_MuhanadTagram.framework */; };
+		E463E9F31F4333E600FCD021 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463E9F21F4333E600FCD021 /* User.swift */; };
+		E47410521F41FB47005320AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47410511F41FB47005320AD /* ViewController.swift */; };
+		E47410561F41FB80005320AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47410541F41FB80005320AD /* LaunchScreen.storyboard */; };
+		E47410571F41FB80005320AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47410551F41FB80005320AD /* Main.storyboard */; };
+		E474105B1F41FB8B005320AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47410591F41FB8B005320AD /* GoogleService-Info.plist */; };
+		E474105C1F41FB8B005320AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E474105A1F41FB8B005320AD /* Info.plist */; };
+		E4CBAF2B1F4205B70055B4BB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CBAF2A1F4205B70055B4BB /* Login.storyboard */; };
+		E4CBAF2D1F42072A0055B4BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CBAF2C1F42072A0055B4BB /* LoginViewController.swift */; };
 		E4F451861F41EF5600340A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F451851F41EF5600340A5D /* AppDelegate.swift */; };
-		E4F451881F41EF5600340A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F451871F41EF5600340A5D /* ViewController.swift */; };
-		E4F4518B1F41EF5600340A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F451891F41EF5600340A5D /* Main.storyboard */; };
 		E4F4518D1F41EF5600340A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F4518C1F41EF5600340A5D /* Assets.xcassets */; };
-		E4F451901F41EF5600340A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F4518E1F41EF5600340A5D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43AE257E7295BABB3E202A09 /* Pods-MuhanadTagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuhanadTagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuhanadTagram/Pods-MuhanadTagram.release.xcconfig"; sourceTree = "<group>"; };
+		9EF80D3A98E7014E1203435F /* Pods-MuhanadTagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuhanadTagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuhanadTagram/Pods-MuhanadTagram.debug.xcconfig"; sourceTree = "<group>"; };
+		DF3448B47D58F8F4E063701F /* Pods_MuhanadTagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuhanadTagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E463E9F21F4333E600FCD021 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E47410511F41FB47005320AD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E47410541F41FB80005320AD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E47410551F41FB80005320AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E47410591F41FB8B005320AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E474105A1F41FB8B005320AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CBAF2A1F4205B70055B4BB /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E4CBAF2C1F42072A0055B4BB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E4F451821F41EF5600340A5D /* MuhanadTagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuhanadTagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F451851F41EF5600340A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4F451871F41EF5600340A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4F4518A1F41EF5600340A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4F4518C1F41EF5600340A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4F4518F1F41EF5600340A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E4F451911F41EF5600340A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9641C85F15849767DF83315E /* Pods_MuhanadTagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32B98CF2040B03EB9FD0487E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3448B47D58F8F4E063701F /* Pods_MuhanadTagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80B6B980F4E404F0D49C8D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EF80D3A98E7014E1203435F /* Pods-MuhanadTagram.debug.xcconfig */,
+				43AE257E7295BABB3E202A09 /* Pods-MuhanadTagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E463E9F11F4333C700FCD021 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E463E9F21F4333E600FCD021 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E47410501F41FB47005320AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E47410511F41FB47005320AD /* ViewController.swift */,
+				E4CBAF2C1F42072A0055B4BB /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E47410531F41FB80005320AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E47410551F41FB80005320AD /* Main.storyboard */,
+				E4CBAF2A1F4205B70055B4BB /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E47410581F41FB8B005320AD /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				E47410591F41FB8B005320AD /* GoogleService-Info.plist */,
+				E474105A1F41FB8B005320AD /* Info.plist */,
+				E47410541F41FB80005320AD /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
 		E4F451791F41EF5600340A5D = {
 			isa = PBXGroup;
 			children = (
 				E4F451841F41EF5600340A5D /* MuhanadTagram */,
 				E4F451831F41EF5600340A5D /* Products */,
+				D80B6B980F4E404F0D49C8D2 /* Pods */,
+				32B98CF2040B03EB9FD0487E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +124,11 @@
 			isa = PBXGroup;
 			children = (
 				E4F451851F41EF5600340A5D /* AppDelegate.swift */,
-				E4F451871F41EF5600340A5D /* ViewController.swift */,
-				E4F451891F41EF5600340A5D /* Main.storyboard */,
+				E47410581F41FB8B005320AD /* Supporting */,
+				E47410531F41FB80005320AD /* Storyboards */,
+				E463E9F11F4333C700FCD021 /* Models */,
+				E47410501F41FB47005320AD /* Controllers */,
 				E4F4518C1F41EF5600340A5D /* Assets.xcassets */,
-				E4F4518E1F41EF5600340A5D /* LaunchScreen.storyboard */,
-				E4F451911F41EF5600340A5D /* Info.plist */,
 			);
 			path = MuhanadTagram;
 			sourceTree = "<group>";
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F451941F41EF5600340A5D /* Build configuration list for PBXNativeTarget "MuhanadTagram" */;
 			buildPhases = (
+				8131B2B0DFCA5FAE56583DFD /* [CP] Check Pods Manifest.lock */,
 				E4F4517E1F41EF5600340A5D /* Sources */,
 				E4F4517F1F41EF5600340A5D /* Frameworks */,
 				E4F451801F41EF5600340A5D /* Resources */,
+				915559F5D0C1948EEBFEC259 /* [CP] Embed Pods Frameworks */,
+				A2C6FBB6DBD72ECFBE8D6E91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,44 +195,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F451901F41EF5600340A5D /* LaunchScreen.storyboard in Resources */,
+				E47410571F41FB80005320AD /* Main.storyboard in Resources */,
 				E4F4518D1F41EF5600340A5D /* Assets.xcassets in Resources */,
-				E4F4518B1F41EF5600340A5D /* Main.storyboard in Resources */,
+				E4CBAF2B1F4205B70055B4BB /* Login.storyboard in Resources */,
+				E474105B1F41FB8B005320AD /* GoogleService-Info.plist in Resources */,
+				E474105C1F41FB8B005320AD /* Info.plist in Resources */,
+				E47410561F41FB80005320AD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8131B2B0DFCA5FAE56583DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuhanadTagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		915559F5D0C1948EEBFEC259 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuhanadTagram/Pods-MuhanadTagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuhanadTagram/Pods-MuhanadTagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C6FBB6DBD72ECFBE8D6E91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuhanadTagram/Pods-MuhanadTagram-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuhanadTagram/Pods-MuhanadTagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4F4517E1F41EF5600340A5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F451881F41EF5600340A5D /* ViewController.swift in Sources */,
+				E463E9F31F4333E600FCD021 /* User.swift in Sources */,
+				E4CBAF2D1F42072A0055B4BB /* LoginViewController.swift in Sources */,
+				E47410521F41FB47005320AD /* ViewController.swift in Sources */,
 				E4F451861F41EF5600340A5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E4F451891F41EF5600340A5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4F4518A1F41EF5600340A5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4F4518E1F41EF5600340A5D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4F4518F1F41EF5600340A5D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E4F451921F41EF5600340A5D /* Debug */ = {
@@ -258,9 +377,10 @@
 		};
 		E4F451951F41EF5600340A5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF80D3A98E7014E1203435F /* Pods-MuhanadTagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MuhanadTagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MuhanadTagram/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = makeschool.com.MuhanadTagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +390,10 @@
 		};
 		E4F451961F41EF5600340A5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AE257E7295BABB3E202A09 /* Pods-MuhanadTagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MuhanadTagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MuhanadTagram/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = makeschool.com.MuhanadTagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +420,7 @@
 				E4F451961F41EF5600340A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
